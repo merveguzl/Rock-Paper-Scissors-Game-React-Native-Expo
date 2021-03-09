@@ -49,10 +49,7 @@ const Game = () => {
                 }
             break;
         }
-        setTimeout(() => {
-            setControl(true)
-
-        }, 200);
+        setControl(true)
     }
 
     return (
